@@ -27,10 +27,17 @@ public class CoinsExample {
 
         List<CoinMarkets> coinMarkets = client.getCoinMarkets(Currency.USD);
         System.out.println(coinMarkets);
+        
+        totalCoins = coinMarkets.size();
+        System.out.println(totalCoins);
+        
+        
+        System.exit(0);
+        /*
 
         CoinFullData bitcoinInfo = client.getCoinById("bitcoin");
         System.out.println(bitcoinInfo);
-
+        
         String genesisDate = bitcoinInfo.getGenesisDate();
         System.out.println(genesisDate);
 
@@ -50,6 +57,6 @@ public class CoinsExample {
         IcoData omiseGoIcoInfo = omiseGoInfo.getIcoData();
         String icoStartDate = omiseGoIcoInfo.getIcoStartDate();
         System.out.println(icoStartDate);
-
+		*/
     }
 }

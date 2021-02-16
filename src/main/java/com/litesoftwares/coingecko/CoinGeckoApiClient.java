@@ -32,7 +32,7 @@ public interface CoinGeckoApiClient {
 
     List<CoinMarkets> getCoinMarkets(String vsCurrency);
 
-    List<CoinMarkets> getCoinMarkets(String vsCurrency,  String ids, String order,  Integer perPage, Integer page,  boolean sparkline, String priceChangePercentage);
+    List<CoinMarkets> getCoinMarkets(String vsCurrency,  String ids, String order,  Integer perPage, Integer page,  boolean sparkline, String priceChangePercentage, Integer cutoffMarketCap, Integer cutoffVolume);
 
     CoinFullData getCoinById(String id);
 

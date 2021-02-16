@@ -14,5 +14,20 @@ public class ExchangesTickersById {
     private String name;
     @JsonProperty("tickers")
     private List<Ticker> tickers;
+    
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<Ticker> getTickers() {
+		return tickers;
+	}
+	public void setTickers(List<Ticker> tickers) {
+		this.tickers = tickers;
+	}
+    
+    
 
 }

@@ -11,5 +11,12 @@ public class Global {
     @JsonProperty("data")
     private GlobalData data;
 
+	public GlobalData getData() {
+		return data;
+	}
 
+	public void setData(GlobalData data) {
+		this.data = data;
+	}
+    
 }

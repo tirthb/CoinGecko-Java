@@ -67,5 +67,189 @@ public class IcoData {
     private Object preSaleAvailable;
     @JsonProperty("pre_sale_ended")
     private boolean preSaleEnded;
+    
+    
+	public String getIcoStartDate() {
+		return icoStartDate;
+	}
+	public void setIcoStartDate(String icoStartDate) {
+		this.icoStartDate = icoStartDate;
+	}
+	public String getIcoEndDate() {
+		return icoEndDate;
+	}
+	public void setIcoEndDate(String icoEndDate) {
+		this.icoEndDate = icoEndDate;
+	}
+	public String getShortDesc() {
+		return shortDesc;
+	}
+	public void setShortDesc(String shortDesc) {
+		this.shortDesc = shortDesc;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Links_ getLinks() {
+		return links;
+	}
+	public void setLinks(Links_ links) {
+		this.links = links;
+	}
+	public String getSoftcapCurrency() {
+		return softcapCurrency;
+	}
+	public void setSoftcapCurrency(String softcapCurrency) {
+		this.softcapCurrency = softcapCurrency;
+	}
+	public String getHardcapCurrency() {
+		return hardcapCurrency;
+	}
+	public void setHardcapCurrency(String hardcapCurrency) {
+		this.hardcapCurrency = hardcapCurrency;
+	}
+	public String getTotalRaisedCurrency() {
+		return totalRaisedCurrency;
+	}
+	public void setTotalRaisedCurrency(String totalRaisedCurrency) {
+		this.totalRaisedCurrency = totalRaisedCurrency;
+	}
+	public Object getSoftcapAmount() {
+		return softcapAmount;
+	}
+	public void setSoftcapAmount(Object softcapAmount) {
+		this.softcapAmount = softcapAmount;
+	}
+	public Object getHardcapAmount() {
+		return hardcapAmount;
+	}
+	public void setHardcapAmount(Object hardcapAmount) {
+		this.hardcapAmount = hardcapAmount;
+	}
+	public Object getTotalRaised() {
+		return totalRaised;
+	}
+	public void setTotalRaised(Object totalRaised) {
+		this.totalRaised = totalRaised;
+	}
+	public String getQuotePreSaleCurrency() {
+		return quotePreSaleCurrency;
+	}
+	public void setQuotePreSaleCurrency(String quotePreSaleCurrency) {
+		this.quotePreSaleCurrency = quotePreSaleCurrency;
+	}
+	public Object getBasePreSaleAmount() {
+		return basePreSaleAmount;
+	}
+	public void setBasePreSaleAmount(Object basePreSaleAmount) {
+		this.basePreSaleAmount = basePreSaleAmount;
+	}
+	public Object getQuotePreSaleAmount() {
+		return quotePreSaleAmount;
+	}
+	public void setQuotePreSaleAmount(Object quotePreSaleAmount) {
+		this.quotePreSaleAmount = quotePreSaleAmount;
+	}
+	public String getQuotePublicSaleCurrency() {
+		return quotePublicSaleCurrency;
+	}
+	public void setQuotePublicSaleCurrency(String quotePublicSaleCurrency) {
+		this.quotePublicSaleCurrency = quotePublicSaleCurrency;
+	}
+	public String getBasePublicSaleAmount() {
+		return basePublicSaleAmount;
+	}
+	public void setBasePublicSaleAmount(String basePublicSaleAmount) {
+		this.basePublicSaleAmount = basePublicSaleAmount;
+	}
+	public String getQuotePublicSaleAmount() {
+		return quotePublicSaleAmount;
+	}
+	public void setQuotePublicSaleAmount(String quotePublicSaleAmount) {
+		this.quotePublicSaleAmount = quotePublicSaleAmount;
+	}
+	public String getAcceptingCurrencies() {
+		return acceptingCurrencies;
+	}
+	public void setAcceptingCurrencies(String acceptingCurrencies) {
+		this.acceptingCurrencies = acceptingCurrencies;
+	}
+	public String getCountryOrigin() {
+		return countryOrigin;
+	}
+	public void setCountryOrigin(String countryOrigin) {
+		this.countryOrigin = countryOrigin;
+	}
+	public Object getPreSaleStartDate() {
+		return preSaleStartDate;
+	}
+	public void setPreSaleStartDate(Object preSaleStartDate) {
+		this.preSaleStartDate = preSaleStartDate;
+	}
+	public Object getPreSaleEndDate() {
+		return preSaleEndDate;
+	}
+	public void setPreSaleEndDate(Object preSaleEndDate) {
+		this.preSaleEndDate = preSaleEndDate;
+	}
+	public String getWhitelistUrl() {
+		return whitelistUrl;
+	}
+	public void setWhitelistUrl(String whitelistUrl) {
+		this.whitelistUrl = whitelistUrl;
+	}
+	public Object getWhitelistStartDate() {
+		return whitelistStartDate;
+	}
+	public void setWhitelistStartDate(Object whitelistStartDate) {
+		this.whitelistStartDate = whitelistStartDate;
+	}
+	public Object getWhitelistEndDate() {
+		return whitelistEndDate;
+	}
+	public void setWhitelistEndDate(Object whitelistEndDate) {
+		this.whitelistEndDate = whitelistEndDate;
+	}
+	public String getBountyDetailUrl() {
+		return bountyDetailUrl;
+	}
+	public void setBountyDetailUrl(String bountyDetailUrl) {
+		this.bountyDetailUrl = bountyDetailUrl;
+	}
+	public Object getAmountForSale() {
+		return amountForSale;
+	}
+	public void setAmountForSale(Object amountForSale) {
+		this.amountForSale = amountForSale;
+	}
+	public boolean isKycRequired() {
+		return kycRequired;
+	}
+	public void setKycRequired(boolean kycRequired) {
+		this.kycRequired = kycRequired;
+	}
+	public Object getWhitelistAvailable() {
+		return whitelistAvailable;
+	}
+	public void setWhitelistAvailable(Object whitelistAvailable) {
+		this.whitelistAvailable = whitelistAvailable;
+	}
+	public Object getPreSaleAvailable() {
+		return preSaleAvailable;
+	}
+	public void setPreSaleAvailable(Object preSaleAvailable) {
+		this.preSaleAvailable = preSaleAvailable;
+	}
+	public boolean isPreSaleEnded() {
+		return preSaleEnded;
+	}
+	public void setPreSaleEnded(boolean preSaleEnded) {
+		this.preSaleEnded = preSaleEnded;
+	}
+    
+ 
 
 }
